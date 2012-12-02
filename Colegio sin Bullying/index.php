@@ -1,0 +1,1 @@
+<?phpif(!($conexion = mysql_connect("localhost","root"))){	exit();	}else{		mysql_select_db("colegio_db",$conexion);	$query ="select coordenadaX from mapa where id=3";		$q= mysql_query($query,$conexion);			$result = mysql_result($q,0);		echo $result;		mysql_close($conexion);	}		?>

@@ -1,0 +1,1 @@
+ <?php $VarPHP = 'PASASTE UNA VARIABLE DESDE PHP HASTA JS' $coordXPHP='-76.266365';$coordYPHP='-86.266365';function MIS_RUTINAS_PHP(){ echo '<script>MI_FUNCION_JS('.$coordXPHP.','.$coordYPHP.');</script>' } ?> //CÓDIGO JAVASCRIPT MI_FUNCION_JS(coordX,coordY){ alert(val); } 
